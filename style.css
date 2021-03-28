@@ -1,0 +1,257 @@
+.main {
+    margin: 0 10%;
+}
+
+#title {
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 13px;
+    text-align: center;
+    opacity: 0.5;
+    font-family: sans-serif;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-container .sub {
+    margin: 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: #cfcbc0;
+}
+
+.menu-container .sub:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.introduce-img {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.introduce-img .image-style {
+    width: 100%;
+}
+
+.flex-parent {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-parent .flex-container {
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-parent .flex-container .round-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.titles {
+    font-size: 32px;
+    opacity: 0.8;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.flex-parent .flex-container .welcome-text {
+    padding: 20px;
+    color: gray;
+    font-size: 20px;
+    font-style: italic;
+    max-width: 300px;
+}
+
+.menu-introduce {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.rectangle {
+    width: 260px;
+    height: 5px;
+    background-color: rgb(238, 222, 222);
+    margin: 40px 10px 10px 10px;
+}
+
+.menu-items {
+    background-color: rgb(243, 235, 235);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 1px rgb(243, 245, 248);
+}
+
+.menu-img {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.menu-introduce .menu-img-items {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.menu-title {
+    font-size: 32px;
+    font-style: italic;
+    padding: 20px;
+}
+
+.menu-contain {
+    font-size: 18px;
+    font-style: italic;
+    color: gray;
+    padding: 20px;
+}
+
+.moreButton {
+    padding: 20px;
+}
+
+.more-Button {
+    background-color: black;
+    color: white;
+    border-radius: 6%;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.more-Button:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+.about-introduce {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.about-introduce .first-introduce {
+    flex: 1;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.first-introduce .title {
+    font-size: 35px;
+    padding-left: 0;
+    padding-right: 30px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.first-introduce .contain {
+    font-size: 17px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: initial;
+}
+
+.first-introduce .moreButton {
+    padding-left: 0;
+}
+
+.second-introduce {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-introduce .link-introduce {
+    flex: 1;
+    min-width: 200px;
+}
+
+ul.list-link {
+    list-style-type: square;
+    opacity: 0.7;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.about-introduce .quickMessage {
+    flex: 1;
+}
+
+.messageForm input[type=submit] {
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+:hover#sendButton {
+    background-color: orange;
+    color: white;
+}
+
+.messageForm input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.messageForm textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 3% 12% 3% 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
