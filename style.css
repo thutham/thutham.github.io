@@ -260,8 +260,27 @@ ul.list-link {
     border-radius: 100%;
     background-color: gray;
     position: fixed;
-    width: 50px;
-    height: 50px;
-    right: 10px;
-    bottom: 50px;
+    width: 30px;
+    height: 30px;
+    right: 80px;
+    bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topButton img {
+    width: 10px;
+    height: 10px;
+}
+
+:hover.topButton {
+    background-color: orange;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
 }
